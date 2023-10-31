@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,400;1,700&family=Open+Sans:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital@1&family=Roboto+Mono:ital,wght@0,400;1,700&family=Roboto:ital,wght@0,400;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script async src="./js/index.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container container--hero">
+        <img src="./assets/logo.png" alt="logo" class="nav__logo" />
+        <ul class="nav__list">
+          <!--  -->
+          <li class="nav__item">
+            <a href="#nosotros" class="nav__link">Sobre Mi</a>
+          </li>
+          <!--  -->
+          <li class="nav__item">
+            <a href="#aprender" class="nav__link">Mis trabajos</a>
+          </li>
+          <!--  -->
+          <li class="nav__item">
+            <a href="#galleryimages" class="nav__link">Galeria de imagenes</a>
+          </li>
+          <!--  -->
+          <li class="nav__item">
+            <a href="#footer" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+        <!-- menu hamburguesa y x -->
+        <label for="menu" class="nav__menu">
+          <div class="bars__menu">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+          </div>
+        </label>
+        <input type="checkbox" id="menu" class="nav__input" />
+        <!--  -->
+      </nav>
+
+      <section class="hero__main container container--hero">
+        <article class="hero__texts">
+          <h1 class="hero__title">Peluqueria y Barberia</h1>
+          <p class="hero__paragraph">
+            "Donde cada corte es una historia, y cada cliente es una obra
+            maestra. Ven y descubre tu transformación en nuestro salón."
+          </p>
+          <a href="#" class="hero__cta" target="_blank">Reservá un turno</a>
+        </article>
+
+        <figure class="hero__figure">
+          <img
+            src="./assets/imagenpelu.jpg"
+            alt="hero__img"
+            class="hero__img"
+          />
+        </figure>
+      </section>
+    </header>
+    <main class="main">
+      <section class="about" id="nosotros">
+        <article class="about__container container">
+          <figure class="about__figure">
+            <img
+              src="./assets/fotoperfil2.jpg"
+              alt="ezequiel"
+              class="about__img"
+            />
+          </figure>
+          <div class="about__texts">
+            <h2 class="subtitle">Hola, Soy Eze, Barbero y Peluquero!</h2>
+            <p class="paragraph">
+              Desde hace 10 años soy profesional en el arte del peine y la
+              tijera. A lo largo de los años, he tenido la oportunidad de
+              trabajar y conocer muchos clientes y amigos. La peluqueria a
+              moldeado mi vida, y espero hacer lo mismo con cabello de mis
+              clientes.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="leanr container" id="aprender">
+        <h2 class="subtitle">¿Que obtendras en mi Peluqueria?</h2>
+        <div class="learn__articles">
+          <!--  -->
+          <article class="learn__article">
+            <img src="./assets/pelu12.jpg" alt="monstrito" class="learn__img" />
+            <h2 class="learn__title">Obtendras cortes geniales!</h2>
+            <p class="paragraph">
+              Elige estilizar tu cabello, en manos de un profesional
+            </p>
+          </article>
+          <!--  -->
+          <article class="learn__article">
+            <img src="./assets/pelu10.png" alt="monstrito" class="learn__img" />
+            <h2 class="learn__title">Aprende a lucir tu cabello!</h2>
+            <p class="paragraph">
+              Llevaras el cabello de una forma natural, sin la necesidad de
+              esconderlo.
+            </p>
+          </article>
+          <!--  -->
+          <article class="learn__article">
+            <img
+              src="./assets/pelu14.jpeg"
+              alt="monstrito"
+              class="learn__img"
+            />
+            <h2 class="learn__title">Productos de Calidad</h2>
+            <p class="paragraph">
+              El cuidado de tu cabello es la prioridad, elige los mejores
+              productos!
+            </p>
+          </article>
+        </div>
+      </section>
+      <!--  Inicia otra section -->
+      <section class="mygallery">
+        <section class="gallery" id="galleryimages">
+          <h2 class="gallery__title">Galeria de Imagenes</h2>
+          <article class="gallery__images">
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--1">
+              <img src="./assets/pelu1.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--2">
+              <img src="./assets/pelu2.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--3">
+              <img src="./assets/pelu3.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--4">
+              <img src="./assets/pelu4.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--5">
+              <img src="./assets/pelu5.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--6">
+              <img src="./assets/pelu6.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--7">
+              <img src="./assets/pelu7.jpg" alt="" class="gallery__img" />
+            </figure>
+            <!--  -->
+            <figure class="gallery__pic gallery__pic--8">
+              <img src="./assets/pelu8.jpg" alt="" class="gallery__img" />
+            </figure>
+          </article>
+        </section>
+      </section>
+    </main>
+    <!-- termina main -->
+    <footer class="footer" id="footer">
+      <h2 class="footer__title">CONTACTO</h2>
+      <section class="footer container">
+        <table class="footer__table">
+          <caption>
+            Horarios de Atención
+          </caption>
+          <thead>
+            <tr>
+              <th>Dia</th>
+              <th>Horarios</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>Lunes</td>
+            <td>18:00 a 21.00</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td>Martes</td>
+            <td>9:30 a 12.00 || 16.30 a 21.00</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td>Miercoles</td>
+            <td>9:30 a 12.00 || 16.30 a 21.00</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td>Jueves</td>
+            <td>9:30 a 12.00 || 16.30 a 21.00</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td>Viernes</td>
+            <td>9:30 a 12.00 || 16.30 a 21.00</td>
+          </tr>
+          <!--  -->
+          <tr>
+            <td>Sabado</td>
+            <td>9:30 a 12.00 || 16.30 a 21.00</td>
+          </tr>
+        </table>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2387.7180670069192!2d-63.09852488450993!3d-33.74637915225777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssarmiento%20160%20Viamonte%2C%20C%C3%B3rdoba!5e1!3m2!1ses!2sar!4v1698720549447!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="footer__iframe"
+        ></iframe>
+      </section>
+      <section class="footer__fin">
+        <div class="footer__fin__img">
+          <img src="./assets/logo.png" alt="logo" />
+        </div>
+
+        <p class="footer__paragraph">&copy;Eze Ricca 2023</p>
+        <section class="footer__fin__nav-container">
+          <nav class="footer__fin__nav">
+            <a href="#"><img src="./assets/instagram.svg" alt="instagram" /></a>
+          </nav>
+          <nav class="footer__fin__nav">
+            <a href="#"><img src="./assets/twitter.svg" alt="twitter" /></a>
+          </nav>
+          <nav class="footer__fin__nav">
+            <a href="#"><img src="./assets/youtube.svg" alt="instagram" /></a>
+          </nav>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>
